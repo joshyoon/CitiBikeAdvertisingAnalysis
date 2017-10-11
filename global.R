@@ -8,7 +8,6 @@ library(devtools)
 devtools::install_github("rstudio/leaflet")
 library(leaflet)
 
-
 library(tigris)
 library(ggmap)
 library(maptools)
@@ -25,5 +24,7 @@ library(shiny)
 library(shinydashboard)
 library(googleVis)
 library(plotly)
+packageVersion("plotly")
 library(dplyr)
+
 
